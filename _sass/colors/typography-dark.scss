@@ -2,24 +2,24 @@
  * The main dark mode styles
  */
 
-@mixin dark-scheme {
+ @mixin dark-scheme {
   /* Framework color */
-  --main-bg: rgb(27, 27, 30);
-  --mask-bg: rgb(68, 69, 70);
-  --main-border-color: rgb(44, 45, 45);
+  --main-bg: #121212; /* Dark blue background color */
+  --mask-bg: rgb(58, 59, 60);
+  --main-border-color: #2c3e50; /* Blue-gray border color */
 
   /* Common color */
-  --text-color: rgb(175, 176, 177);
-  --text-muted-color: #868686;
+  --text-color: #c4c3ca;
+  --text-muted-color: #8b8b8b;
   --text-muted-hightlight-color: #aeaeae;
   --heading-color: #cccccc;
   --label-color: #a7a7a7;
-  --blockquote-border-color: rgb(66, 66, 66);
-  --blockquote-text-color: #868686;
-  --link-color: rgb(138, 180, 248);
-  --link-underline-color: rgb(82, 108, 150);
-  --button-bg: #1e1e1e;
-  --btn-border-color: #2e2f31;
+  --blockquote-border-color: rgb(41, 41, 41);
+  --blockquote-text-color: #d5d1e5;
+  --link-color: #3498db; /* Blue link color */
+  --link-underline-color: #2980b9; /* Slightly darker blue for link underline */
+  --button-bg: #1a1a2a; /* Dark blue background color for buttons */
+  --btn-border-color: #2c3e50; /* Blue-gray border color for buttons */
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
   --btn-box-shadow: var(--main-bg);
@@ -35,28 +35,28 @@
   );
 
   /* Sidebar */
-  --site-title-color: #717070;
-  --site-subtitle-color: #868686;
-  --sidebar-bg: #1e1e1e;
-  --sidebar-border-color: #292929;
-  --sidebar-muted-color: #868686;
-  --sidebar-active-color: rgb(255, 255, 255, 0.95);
-  --sidebar-hover-bg: #262626;
-  --sidebar-btn-bg: #232328;
-  --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(206, 206, 206, 0.9);
+  --site-title-color: #e4e3e9;
+  --site-subtitle-color: #d5d1e5;
+  --sidebar-bg: #282828; /* Dark blue background color */
+  --sidebar-border-color: #2c3e50; /* Blue-gray border color */
+  --sidebar-muted-color: #d5d1e5;
+  --sidebar-active-color: #fffffff2;
+  --sidebar-hover-bg: #3f3f3f; /* Slightly lighter blue on hover */
+  --sidebar-btn-bg: #282828; /* Blue-gray button background color */
+  --sidebar-btn-color: #bdc3c7; /* Light gray button text color */
+  --avatar-border-color: #2980b9; /* Blue border color for the avatar */
 
   /* Topbar */
-  --topbar-bg: rgb(27, 27, 30, 0.64);
+  --topbar-bg: #121212; /* Dark blue background color */
   --topbar-text-color: var(--text-color);
-  --search-border-color: rgb(55, 55, 55);
+  --search-border-color: #3f3f3f; /* Blue-gray border color for search */
   --search-icon-color: rgb(100, 102, 105);
   --input-focus-border-color: rgb(112, 114, 115);
 
   /* Home page */
-  --post-list-text-color: rgb(175, 176, 177);
+  --post-list-text-color: rgb(145, 146, 147);
   --btn-patinator-text-color: var(--text-color);
-  --btn-paginator-hover-color: #2e2e2e;
+  --btn-paginator-hover-color: #1a1a2a;
 
   /* Posts */
   --toc-highlight: rgb(116, 178, 243);
@@ -67,7 +67,7 @@
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #1e1e1e;
+  --card-bg: #282828;
   --card-hovor-bg: #464d51;
   --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
@@ -134,11 +134,10 @@
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
-      rgb(26, 26, 30),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(26, 26, 30)
+      #121212,
+      #282828,
+      #282828,
+      #121212
     );
   }
 
