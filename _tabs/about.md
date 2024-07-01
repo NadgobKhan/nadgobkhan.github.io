@@ -20,16 +20,23 @@ In my free time, I enjoy training in combat sports, traveling, and spending qual
 
 ## Professional Summary
 
+As of now, I contribute as an Information Security Consultant, fostering a robust security posture for the company's codebase. I utilize industry-leading tools like Snyk and Cycode to proactively identify and remediate code vulnerabilities within the development lifecycle.  My expertise extends to web application penetration testing, where I employ ethical hacking techniques to uncover potential weaknesses and enhance overall system security.
+
+Demonstrating a commitment to continuous learning, I actively participate in industry conferences such as BlackHat and take security courses. This dedication allows me to stay current on the evolving threat landscape and refine my skillset to deliver the most effective protection for sensitive information.
+
 I embarked on my professional journey in 2018 as an intern at Avira (now part of Gen). By 2019, I had transitioned into a threat researcher role within the same team. During my time at Avira, I took on diverse responsibilities, including reverse engineering, analyzing, and creating detections for various types of malicious files. I also actively hunted threats, crafting insightful blog articles, and developed software tools for analyzing malicious files.
 
 I take particular pride in developing a tool that statically analyzed Android applications, revealing any potential information leaks.
 
-My experience at Avira was invaluable, providing me with extensive knowledge in networking, reverse engineering, and software vulnerabilities. Grateful for the opportunities and learning, I've since ventured into a self-employed researcher role. Looking ahead, my career lies in offensive security, and my goal is to become the best ethical hacker I can while enjoying every moment of it!
+My experience at Avira was invaluable, providing me with extensive knowledge in networking, reverse engineering, and software vulnerabilities. Grateful for the opportunities and learning, I also ventured into a self-employed researcher role. Looking ahead, my career lies in offensive security, and my goal is to become the best ethical hacker I can while enjoying every moment of it!
 
 ## Licenses & Certifications
 
 ### TryHackMe
 {% include gallery.html folder="/assets/img/about/certs/thm" %}
+
+### Security Journey
+{% include gallery.html folder="/assets/img/about/certs/secjourney" %}
 
 ## Skills
 
