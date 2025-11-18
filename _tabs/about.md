@@ -10,42 +10,110 @@ toc: true
 
 ## Who am I
 
-Hi there! I’m Bogdan, and it looks like you've stumbled upon my blog! I am a security researcher from Romania, deeply passionate about offensive security. Currently, I specialize in web and network security, with plans to explore mobile, hardware, and even automotive security in the future!
+Hi there! I'm Bogdan, a security researcher and Application Security Engineer from Romania, specializing in offensive security and web application penetration testing. I'm passionate about identifying and remediating security vulnerabilities across complex modern applications and cloud-native environments.
 
-I am also an active bug bounty hunter on Bugcrowd and take part in CTF competitions! Finding bugs (and flags) it’s like a puzzle to me and I love the thrill of it!
+I'm an active bug bounty hunter on HackerOne and CTF competitor, continuously refining my offensive security skills. I view this craft like a mythical blacksmith—the more dedication poured into it, the better the results. My career is built on a foundation of reverse engineering, malware analysis, and software vulnerability research.
 
-I view this 'ethical hacker' journey as a craft, akin to a mythical blacksmith in a fantasy story: the more I pour my heart and soul into it, the better I become. Luckily, I am genuinely passionate about what I do!
+**Current Focus:**
+- 🔍 Web application penetration testing & API security
+- 🔐 CI/CD pipeline security & supply chain protection
+- ☁️ Cloud security & cloud-native pentesting
+- 📚 Working toward CCSP & GCPN certifications
 
-In my free time, I enjoy training in combat sports, traveling, and spending quality time with my family. Allow me to share my experiences and insights with you on this blog—hope you find something interesting!
+In my free time, I enjoy combat sports, traveling, and creating music. Welcome to my blog!
 
 ## Professional Summary
 
-As of now, I contribute as an Information Security Consultant, fostering a robust security posture for the company's codebase. I utilize industry-leading tools like Snyk and Cycode to proactively identify and remediate code vulnerabilities within the development lifecycle.  My expertise extends to web application penetration testing, where I employ ethical hacking techniques to uncover potential weaknesses and enhance overall system security.
+I currently work as an Application Security Engineer specializing in web application penetration testing. My role centers on identifying, exploiting, and helping remediate security weaknesses across complex applications and cloud-native environments. I work closely with engineering teams to strengthen security posture throughout the SDLC.
 
-Demonstrating a commitment to continuous learning, I actively participate in industry conferences such as BlackHat and take security courses. This dedication allows me to stay current on the evolving threat landscape and refine my skillset to deliver the most effective protection for sensitive information.
+I have hands-on experience securing CI/CD pipelines, focusing on code and open-source dependency vulnerabilities using tools such as Snyk, and secret detection and governance using Cycode. My work enables developers to integrate secure practices early, maintain clean pipelines, and reduce security risks before they reach production.
 
-I embarked on my professional journey in 2018 as an intern at Avira (now part of Gen). By 2019, I had transitioned into a threat researcher role within the same team. During my time at Avira, I took on diverse responsibilities, including reverse engineering, analyzing, and creating detections for various types of malicious files. I also actively hunted threats, crafting insightful blog articles, and developed software tools for analyzing malicious files.
+My career path is firmly rooted in offensive security. I actively refine my skills through continuous learning, industry conferences, and advanced training. I currently hold CISSP and GWAPT (GIAC Web Application Penetration Tester) certifications and am working toward CCSP and GCPN (GIAC Cloud Penetration Tester) to deepen my cloud security and cloud pentesting expertise.
 
-I take particular pride in developing a tool that statically analyzed Android applications, revealing any potential information leaks.
+Before transitioning into application security, I began my career at Avira (now Gen) in 2018. Initially joining as an intern, I later moved into a Threat Researcher role, where I focused on malware analysis, reverse engineering, and detection engineering. I developed internal tools for analyzing malicious files—including a static analysis tool for identifying information leaks in Android applications—and contributed to research, threat hunting, and technical writing.
 
-My experience at Avira was invaluable, providing me with extensive knowledge in networking, reverse engineering, and software vulnerabilities. Grateful for the opportunities and learning, I also ventured into a self-employed researcher role. Looking ahead, my career lies in offensive security, and my goal is to become the best ethical hacker I can while enjoying every moment of it!
+This foundation in reverse engineering, malware research, and software vulnerabilities continues to shape my approach as I grow in offensive security. My long-term goal is to become a highly skilled ethical hacker, constantly improving, learning, and enjoying the craft.
 
 ## Licenses & Certifications
 
-### TryHackMe
-{% include gallery.html folder="/assets/img/about/certs/thm" %}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:2rem;justify-items:center;margin:2rem 0;">
+  <div style="text-align:center;">
+      <img src="/assets/img/about/certs/badges/CISSP.png" alt="CISSP" width="140" style="background-color:white;padding:8px;border-radius:4px;margin-bottom:0.5rem;cursor:pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+    <div style="font-weight:600;margin-bottom:0.25rem;">CISSP</div>
+    <div style="font-size:0.85rem;color:#E0E0E0;margin-bottom:0.5rem;">Certified Information<br />Systems Security Professional</div>
+    <a href="https://www.credly.com/badges/4a78f4b1-793a-4497-a522-3a1d4fcb9e62/public_url" target="_blank" rel="noopener" style="font-size:0.9rem;color:#0969da;text-decoration:none;">View Credential →</a>
+  </div>
+  <div style="text-align:center;">
+      <img src="/assets/img/about/certs/badges/gwapt.png" alt="GWAPT" width="140" style="margin-bottom:0.5rem;cursor:pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+    <div style="font-weight:600;margin-bottom:0.25rem;">GWAPT</div>
+    <div style="font-size:0.85rem;color:#E0E0E0;margin-bottom:0.5rem;">GIAC Web Application<br />Penetration Tester</div>
+    <a href="https://www.credly.com/badges/e5c4d06a-0a94-4c86-9a0e-6b7f8504fe12/public_url" target="_blank" rel="noopener" style="font-size:0.9rem;color:#0969da;text-decoration:none;">View Credential →</a>
+  </div>
+</div>
 
-### Security Journey
-{% include gallery.html folder="/assets/img/about/certs/secjourney" %}
+**In Progress:** CCSP (Certified Cloud Security Professional) | GCPN (GIAC Cloud Penetration Tester)
 
-## Skills
+## Core Expertise
 
-Alright, let's talk skills! In my journey as a security researcher, I've honed a diverse set of skills that contribute to my effectiveness in the field. Here's a sneak peek:
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;margin:2rem 0;">
+  <div style="border-left:4px solid #0969da;padding-left:1rem;">
+    <strong style="font-size:1.1rem;display:block;margin-bottom:0.5rem;">🔍 Offensive Security</strong>
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#E0E0E0;">
+      Web application penetration testing, API security assessment, business logic exploitation, vulnerability discovery & validation using industry-standard methodologies and OWASP frameworks.
+    </p>
+  </div>
+  <div style="border-left:4px solid #28a745;padding-left:1rem;">
+    <strong style="font-size:1.1rem;display:block;margin-bottom:0.5rem;">🔐 Application Security</strong>
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#E0E0E0;">
+      SDLC security integration, secure code review, threat modeling, vulnerability assessment across web apps and cloud-native environments.
+    </p>
+  </div>
+  <div style="border-left:4px solid #6f42c1;padding-left:1rem;">
+    <strong style="font-size:1.1rem;display:block;margin-bottom:0.5rem;">🔄 CI/CD & Supply Chain</strong>
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#E0E0E0;">
+      Pipeline security hardening, dependency vulnerability scanning (Snyk), secret detection & governance (Cycode), open-source risk management.
+    </p>
+  </div>
+  <div style="border-left:4px solid #fd7e14;padding-left:1rem;">
+    <strong style="font-size:1.1rem;display:block;margin-bottom:0.5rem;">☁️ Cloud Security</strong>
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#E0E0E0;">
+      AWS security, container security, cloud infrastructure pentesting, cloud-native application assessment fundamentals.
+    </p>
+  </div>
+  <div style="border-left:4px solid #e83e8c;padding-left:1rem;">
+    <strong style="font-size:1.1rem;display:block;margin-bottom:0.5rem;">🔧 Tools & Development</strong>
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#E0E0E0;">
+      Burp Suite, Metasploit, Nmap, ffuf, sqlmap, recon automation. Custom tooling in Python for reconnaissance, analysis, and exploitation workflows.
+    </p>
+  </div>
+  <div style="border-left:4px solid #dc3545;padding-left:1rem;">
+    <strong style="font-size:1.1rem;display:block;margin-bottom:0.5rem;">📚 Research & Analysis</strong>
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#E0E0E0;">
+      Reverse engineering, malware analysis, vulnerability research, root cause analysis, technical writing, and security documentation.
+    </p>
+  </div>
+</div>
 
-- **Security Analysis**: Proficient in reverse engineering and analyzing code for various types of applications, with a focus on identifying vulnerabilities and potential threats.
-- **Tool Development**: Skilled in developing software tools (mainly using Python)
-- **Offensive Security**: I continuously learn and hone my skills, as such, I have experience with security tools such as BurpSuite, Metasploit and other reconnaissance and vulnerability scanning tools!
+## Technical Skills
 
-## Contact Information
+**Penetration Testing:** Web application testing • API security • Business logic flaws • Authentication/Authorization • Input validation • OWASP Top 10
 
-If you want to get in contact with me, send me a message through LinkedIn of X(Twitter)! You can find the links on the left! Hope you have a great day!
+**Tools & Platforms:** Burp Suite • Metasploit • Nmap • ffuf • sqlmap • Cycode • Snyk • Kali Linux • Git
+
+**Cloud & Infrastructure:** AWS • Kubernetes • Docker • Container security • Infrastructure pentesting
+
+**Languages & Scripting:** Python • Bash • Automation frameworks • Custom tool development
+
+**Methodologies:** NIST • OWASP • Threat modeling • Secure SDLC • Agile security
+
+
+## Let's Connect
+
+Interested in discussing security vulnerabilities, collaboration opportunities, or pentesting projects? I'm always open to connecting with fellow security professionals, potential clients, and organizations looking to strengthen their security posture.
+
+**Reach out via:**
+- 💼 **LinkedIn** - Professional inquiries and networking
+- 𝕏 **Twitter/X** - Security insights and research discussions
+- 🏃 **HackerOne** - Bug bounty programs and security collaborations
+
+Looking forward to connecting with you!
