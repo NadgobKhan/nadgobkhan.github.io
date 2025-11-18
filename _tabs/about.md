@@ -8,7 +8,7 @@ toc: true
 
 ![profile_pic.jpg](/assets/img/about/profile/profile_pic.jpg){: w="400" h="300"}
 
-## Who am I
+## Who I am
 
 Hi there! I'm Bogdan, a security researcher and Application Security Engineer from Romania, specializing in offensive security and web application penetration testing. I'm passionate about identifying and remediating security vulnerabilities across complex modern applications and cloud-native environments.
 
